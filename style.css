@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100%;
+}
+
+.responsive {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    
+}
+
+
+.main {
+    color: white;
+    background-color: white;
+    transform: rotate(-30deg);
+    padding-top: 10px;
+    position: relative;
+    
+    width: 15%;
+    top: 140px;
+    left: 100px;
+}
+
+.main1 {
+    color: white;
+    background-color: white;
+    transform: rotate(-35deg);
+    padding-top: 10px;
+    position: relative;
+    
+    width: 15%;
+    top: 250px;
+    left: 300px;
+}
+
+.main2 {
+    color: white;
+    background-color: white;
+    transform: rotate(-35deg);
+    padding-top: 10px;
+    position: relative;
+    
+    width: 15%;
+    top: 340px;
+    left: 480px;
+}
+
+.main3 {
+    color: white;
+    background-color: white;
+    transform: rotate(-35deg);
+    padding-top: 10px;
+    position: relative;
+    
+    width: 15%;
+    top: 450px;
+    left: 680px;
+}

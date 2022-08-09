@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="anime.min.js">
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        
+        <img src="main.png" alt="" class="responsive">
+        <div class="stripes main"></div>
+        <div class="stripes1 main1"></div>
+
+        <div class="stripes2 main2"></div>
+        <div class="stripes3 main3"></div>
+        
+    </div>
+</body>
+<script>
+
+first_block();
+second_block();
+thrid_block();
+fouth_block();
+
+
+function first_block(){
+    anime({
+        targets: '.stripes',
+        rotate: [
+            {value:-35, duration:1, easing:'linear'}
+        ],
+        translateY:[
+            {value:200, delay:1, duration:1000, easing:'linear'}
+        ],
+        translateX:[
+            {value:90, delay:1, duration:1000, easing:'linear'}
+        ],
+        loop:true
+    });
+}
+
+
+function second_block(){
+    anime({
+        targets: '.stripes1',
+        rotate: [
+            {value:-35, duration:1, easing:'linear'}
+        ],
+        translateY:[
+            {value:200, delay:1, duration:1000, easing:'linear'}
+        ],
+        translateX:[
+            {value:90, delay:1, duration:1000, easing:'linear'}
+        ],
+        loop:true
+    });
+}
+
+function thrid_block(){
+    anime({
+        targets: '.stripes2',
+        rotate: [
+            {value:-35, duration:1, easing:'linear'}
+        ],
+        translateY:[
+            {value:200, delay:1, duration:1000, easing:'linear'}
+        ],
+        translateX:[
+            {value:90, delay:1, duration:1000, easing:'linear'}
+        ],
+        loop:true
+    });
+}
+
+function fouth_block(){
+    anime({
+        targets: '.stripes3',
+        rotate: [
+            {value:-35, duration:1, easing:'linear'}
+        ],
+        translateY:[
+            {value:150, delay:1, duration:1000, easing:'linear'}
+        ],
+        translateX:[
+            {value:80, delay:1, duration:1000, easing:'linear'}
+        ],
+        loop:true
+    });
+}
+
+</script>
+
+</html>
